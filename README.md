@@ -29,12 +29,16 @@ Please observe the maximum sink current of your MCU if you are driving a number 
 
 
 Based on Debounce
+
 created 21 Nov 2006
 by David A. Mellis
+
 modified 30 Aug 2011
 by Limor Fried
+
 modified 28 Dec 2012
 by Mike Walters
+
 modified 30 Aug 2016
 by Arturo Guadalupi
 
