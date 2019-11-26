@@ -11,7 +11,7 @@ Note:
 
 Whilst the button is pressed the LED will light as it is being turned on by the push button so if the button press is to turn  the LED off the it will not actually go off until the push button is released, in practice this is not an esthetic problem.
    
-It is recomended that GPIO used is 5V tollerant however in practive leakage is low and in practice reaches less than 3V.
+It is recomended that GPIO used is 5V tollerant however in practice leakage is low and is less than 3V.
 
 Each time the input pin goes from High to LOW  (e.g. because of a push-button press), the led state is toggled. There's a minimum delay between toggles to debounce the circuit (i.e. to ignore noise).
 
