@@ -5,7 +5,7 @@ Based on the Debounce example documented below.
   
 This simple circuit uses a single GPIO port to drive an LED in addition to acting as a push button input.
   
-Most of the time the GPIO is configrured an Open Drain output driving the LED, periodically it is switched to an input and the button state is read.
+Most of the time the GPIO is configured an Open Drain output driving the LED, periodically it is switched to an input and the button state is read.
   
 Note:
 
