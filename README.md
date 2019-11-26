@@ -16,12 +16,14 @@ It is recomended that GPIO used is 5V tollerant however in practice leakage is l
 Each time the input pin goes from High to LOW  (e.g. because of a push-button press), the led state is toggled. There's a minimum delay between toggles to debounce the circuit (i.e. to ignore noise).
 
 The circuit:
+
 - LED is attached from 5V to GPIO pin via a suitable resistor 
     (suggested 330 ohm for white LED) check the GPIO mA sink rating for your MCU.
     Older Gallium Arsenide LEDs could be driven from 3.3V.
 - pushbutton attached from GPIO pin to ground 
 
 Danger:
+
 This will only work on MCUs that support Open Drain outputs such as the STM32 and SAMD21 as the push button grounds the GPIO pin when pressed, other MCUs such as the ATMEGA328P could be damaged if wired this way.
 Please observe the maximum sink current of your MCU if you are driving a number of LEDs.   
  
