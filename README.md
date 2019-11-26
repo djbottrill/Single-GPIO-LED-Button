@@ -1,4 +1,4 @@
-# Single-GPIO-LED-Button
+# Single GPIO driven LED Push Button
 
 Single GPIO illuminated push button 
 Based on the Debounce example documented below.
